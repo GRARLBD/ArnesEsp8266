@@ -1,0 +1,225 @@
+::root {
+  --statusEntry: #00ff00;
+  --statusOut: rgb(255, 0, 0);
+  --statusRepair: rgb(255, 255, 0);
+}
+
+.camara {
+  width: 100%;
+}
+
+.logotipo {
+  width: 250px;
+}
+
+#table-statics {
+  font-size: 1em;
+}
+
+.racks {
+  --bs-gutter-x: 1.5rem !important;
+  --bs-gutter-y: 0 !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  width: 100% !important;
+  margin-top: calc(var(--bs-gutter-y) * -1) !important;
+  margin-right: calc(var(--bs-gutter-x) * -0.5) !important;
+  margin-left: calc(var(--bs-gutter-x) * -0.5) !important;
+}
+
+.rack {
+  flex: 0 0 auto !important;
+  /* width: 300px !important; */
+  margin: 10px;
+  padding: 0px !important;
+  font-size: 0.6rem !important;
+}
+
+.thead {
+  width: 20 !important;
+  height: 20 !important;
+  padding: 5px 4px;
+  border: solid 1px #000;
+  background-color: #fff;
+  transform: rotate(270deg);
+}
+
+.theadCustom {
+  width: 70px;
+  height: auto;
+  padding: 5px 4px;
+  border: solid 1px #000;
+  background-color: #fff;
+}
+
+.theadCustomSelected {
+  width: 20 !important;
+  height: auto;
+  padding: 5px 4px;
+  border: solid 1px #000;
+  background-color: #46f32c;
+}
+
+.labelCustom {
+  font-weight: bold;
+  font-size: 6px; /*Tamaño Letra*/
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: flex; /* Convertir en contenedor flexible */
+  justify-content: center; /* Centrar horizontalmente */
+}
+
+.labelTituloCustom {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: flex; /* Convertir en contenedor flexible */
+  justify-content: center; /* Centrar horizontalmente */
+  margin-bottom: 10px;
+}
+
+.tbody {
+  width: 20 !important;
+  height: 20 !important;
+  padding: 7px;
+  border: solid 1px #0b0b0b;
+  background-color: #fff;
+}
+
+.cajaCustom {
+  width: 80px;
+  height: 40px;
+  padding: 7px;
+  border: solid 1px #000;
+  background-color: #fff;
+}
+
+.thead a {
+  text-decoration: none;
+  color: #000;
+}
+
+.estante table tr th,
+td {
+  padding: 0px !important;
+}
+.estante table tr th {
+  height: 45px;
+}
+.estante table tr td {
+  height: 25px;
+}
+
+.estante .t-head p {
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-90deg);
+  font-weight: 900;
+  margin: auto;
+}
+
+.none {
+  color: #000;
+}
+
+.entry {
+  color: #17f80d;
+}
+
+.out {
+  color: #fe321d;
+}
+
+.repair {
+  color: #fffc01;
+}
+
+.text-colegio {
+  color: #fff;
+}
+
+.organico {
+  background-color: #fff;
+}
+
+.bg-table-light {
+  background-color: #e7e7e7 !important;
+}
+
+.bg-table-light-gray {
+  background-color: #cbcbcb !important;
+}
+
+.bg-table-entry {
+  background-color: #00ff00 !important;
+}
+.bg-table-out {
+  background-color: #ff0000 !important;
+}
+.bg-table-default {
+  background-color: #ffffff !important;
+}
+
+.CABEZA {
+  display: none !important;
+  position: relative;
+  top: 10px;
+  left: 35px;
+}
+.PECHO-1 {
+  position: relative;
+  top: 50px;
+  left: 15px;
+}
+.PECHO-2 {
+  position: relative;
+  top: 10px;
+  left: 55px;
+}
+
+.ABDOMEN-1 {
+  position: relative;
+  top: 10px;
+  left: 35px;
+}
+
+.ABDOMEN-2 {
+  position: relative;
+  top: 10px;
+  left: 35px;
+}
+.ESPALDA-1 {
+  display: none !important;
+  position: relative;
+  top: 10px;
+  left: 35px;
+}
+.ESPALDA-2 {
+  display: none !important;
+  position: relative;
+  top: 10px;
+  left: 35px;
+}
+.ESPALDA-BAJA-1 {
+  display: none !important;
+  position: relative;
+  top: 10px;
+  left: 35px;
+}
+.ESPALDA-BAJA-2 {
+  display: none !important;
+  position: relative;
+  top: 10px;
+  left: 35px;
+}
+.HOMBRO-1 {
+  position: relative;
+  top: -270px;
+  left: -10px;
+}
+.HOMBR0-2 {
+  position: relative;
+  top: -310px;
+  left: 80px;
+}
